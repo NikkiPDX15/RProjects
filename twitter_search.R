@@ -16,10 +16,10 @@ require(RCurl)
 require(tm)  # most popular text mining 
 require(wordcloud)  # creates text visuals 
 
-consumer_key <- "YjZRiZJ3k7F2sJSARKkWI2S3e"
-consumer_secret <- "zsxP8xTRdIniwsuOqtVrIlJxrvyylaqjBItdODzdXRmskFkwIN"
-access_token <- "2363189640-eE7cgEI0oGWrocHnqTluZnf8Z8Fo8hQKFRL6obP"
-access_secret <- "n6oFEKkWf5E3pA409OZvR5XinyzwkO0IJHAJa4opeV4fA"
+consumer_key <- "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+consumer_secret <- "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+access_token <- "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+access_secret <- "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
 setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
 
