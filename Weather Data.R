@@ -17,7 +17,7 @@ library("jsonlite")
 
 # Need to have an API Key from Open Weather Map
 # https://home.openweathermap.org
-api_key<- "79fda871dee022e74c3d5f307e6ed642"
+api_key<- "#############################"
 
 # you can grab data with using city name, key, or coordinates 
 # can also use zipcode with country
@@ -37,7 +37,7 @@ head(data)
 
 #install.packages("rwunderground")
 require(rwunderground)
-set_api_key("d20e586981d06416")
+set_api_key("################################")
 
 #10 day forecast as a tibble 
 forecast10day(set_location(territory = "Oregon", city = "Portland"))
